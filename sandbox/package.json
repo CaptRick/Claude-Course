@@ -1,0 +1,14 @@
+{
+  "name": "cca-f-sandbox",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "CCA-F 7-day prep sandbox (Node/SDK, agentic loop exercises)",
+  "scripts": {
+    "smoke": "node smoke-test.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.32.1",
+    "dotenv": "^16.4.5"
+  }
+}
